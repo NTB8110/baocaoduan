@@ -1,6 +1,6 @@
 # Báo cáo ngày 04/10
 
-## 1\. Thông tin cá nhân
+## 1. Thông tin cá nhân
 
 * Họ và tên: Nguyễn Thị Bình
 * Vai trò: Developer
@@ -17,12 +17,10 @@ Tôi phụ trách các module:
 * Thông báo
 
 Theo đặc tả dự án, phần công việc của tôi liên quan đến các bảng
-`rooms`, `room\_types`, `amenities`, `room\_amenities`,
-`maintenance\_requests` và `notifications`.
+`rooms`, `room_types`, `amenities`, `room_amenities`,
+`maintenance_requests` và `notifications`.
 
-\---
-
-# 2\. Xây dựng hệ thống với sự trợ giúp của AI Agent
+# 2. Xây dựng hệ thống với sự trợ giúp của AI Agent
 
 ## 2.1. Công cụ sử dụng
 
@@ -42,9 +40,7 @@ Tech stack của project gồm ReactJS + TypeScript / HTML5, CSS3, JS + Bootstra
 Tôi không sử dụng AI Agent theo cách yêu cầu AI tạo toàn bộ project rồi
 nhận kết quả cuối cùng. Tôi chia công việc thành từng module và từng
 giai đoạn để dễ kiểm soát.
-
 Quy trình hiện tại:
-
 
 Đặc tả nghiệp vụ
        ↓
@@ -117,7 +113,7 @@ Module Phòng trọ được chia thành các phase:
 Việc chia phase giúp hạn chế Agent thay đổi quá nhiều code trong một lần
 và dễ xác định lỗi nếu có vấn đề.
 
-# 3\. Kỹ năng kiểm soát code
+# 3. Kỹ năng kiểm soát code
 
 ## 3.1. Kiểm soát tính năng
 
@@ -190,9 +186,9 @@ Ghi nhận chi phí sửa chữa
 
 Các trạng thái sự cố:
 
-* `TIEP\_NHAN`
-* `DANG\_XU\_LY`
-* `HOAN\_THANH`
+* `TIEP_NHAN`
+* `DANG_XU_LY`
+* `HOAN_THANH`
 
 Đặc tả dự án xác định người thuê tạo yêu cầu sửa chữa, còn chủ trọ cập
 nhật tiến độ xử lý và ghi nhận chi phí.
@@ -307,28 +303,28 @@ lượng commit.
 
 Có thể đánh giá dựa trên các tiêu chí:
 
-#### \- Tính liên tục
+#### - Tính liên tục
 
 Thành viên có commit trong suốt quá trình phát triển hay chỉ đưa toàn bộ
 source code lên ở cuối?
 
-#### \- Nội dung commit
+#### - Nội dung commit
 
 Commit có thể hiện đúng công việc được giao không?
 
-#### \- Git Diff
+#### - Git Diff
 
 Code thực tế có đúng với nội dung commit và task không?
 
-#### \- Chất lượng chức năng
+#### - Chất lượng chức năng
 
 Chức năng có chạy đúng và đáp ứng yêu cầu không?
 
-#### \- Không ảnh hưởng thành viên khác
+#### - Không ảnh hưởng thành viên khác
 
 Thành viên có vô tình sửa hoặc làm hỏng module của người khác không?
 
-#### \- Khả năng giải thích code
+#### - Khả năng giải thích code
 
 Khi được hỏi:
 
@@ -336,7 +332,7 @@ Khi được hỏi:
 
 thành viên phải xác định được file, component, state và logic xử lý.
 
-#### \- Khả năng sửa lỗi
+#### - Khả năng sửa lỗi
 
 Khi có bug, thành viên phải biết cách tìm nguyên nhân và sửa đúng vị
 trí.
@@ -345,7 +341,6 @@ trí.
 
 Ở giai đoạn hiện tại, tôi đang thực hiện kiểm thử frontend theo quy
 trình:
-
 
 Viết code
    ↓
@@ -360,8 +355,6 @@ Kiểm tra trường hợp lỗi
 Sửa lỗi
    ↓
 Chạy lại
-
-
 
 Các nội dung đã kiểm tra gồm:
 
@@ -397,8 +390,6 @@ Các nội dung đã kiểm tra gồm:
 
 Giai đoạn tiếp theo tôi sẽ tiếp tục kết hợp kiểm thử frontend với API,
 database và integration test.
-
-
 
 # 5. Git và yêu cầu commit liên tục
 
@@ -443,8 +434,6 @@ Vì vậy, mục tiêu của tôi không chỉ là:
 mà là:
 
 > "Dùng AI để tăng tốc độ phát triển nhưng bản thân vẫn hiểu và kiểm soát được toàn bộ code mình phụ trách."
-
-
 
 # 7. Tiến độ hiện tại
 
